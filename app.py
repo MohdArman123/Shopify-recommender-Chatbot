@@ -22,7 +22,7 @@ from pymongo import MongoClient
 import nest_asyncio
 nest_asyncio.apply()
 
-os.environ['GOOGLE_API_KEY'] = ""
+os.environ['GOOGLE_API_KEY'] = "YOUR_API"
 # llm = ChatGoogleGenerativeAI(
 #     model="gemini-1.0-pro",
 #     safety_settings={
