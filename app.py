@@ -510,7 +510,7 @@ if __name__ == '__main__':
 # import nest_asyncio
 # nest_asyncio.apply()
 
-# os.environ['GOOGLE_API_KEY'] = "AIzaSyD8MuvEtPT6C7SwRjMxDJK8wEhfAj6zTk0"
+# os.environ['GOOGLE_API_KEY'] = ""
 # llm = ChatGoogleGenerativeAI(
 #     model="gemini-1.5-pro-latest",
 #     safety_settings={
