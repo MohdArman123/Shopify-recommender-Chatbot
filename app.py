@@ -22,7 +22,7 @@ from pymongo import MongoClient
 import nest_asyncio
 nest_asyncio.apply()
 
-os.environ['GOOGLE_API_KEY'] = "AIzaSyD8MuvEtPT6C7SwRjMxDJK8wEhfAj6zTk0"
+os.environ['GOOGLE_API_KEY'] = ""
 # llm = ChatGoogleGenerativeAI(
 #     model="gemini-1.0-pro",
 #     safety_settings={
@@ -43,8 +43,8 @@ llm = GoogleGenerativeAI(
 
 embed_model = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 
-API_ENDPOINT = 'https://headphoneai.myshopify.com//api/2024-01/graphql.json'
-ACCESS_TOKEN = '6e4deb5941c3ce931fabec0f5b011792'
+API_ENDPOINT = ''
+ACCESS_TOKEN = ''
 
 # GraphQL query to fetch product data with pagination variables
 query = """
@@ -92,7 +92,7 @@ headers = {
 }
 
 # MongoDB connection string
-uri = "mongodb+srv://aalok:aalok@cluster0.cgn9day.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = ""
 
 # Connect to MongoDB
 client = MongoClient(uri)
